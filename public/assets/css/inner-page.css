@@ -1,0 +1,167 @@
+.banner-inner-text{
+    width: 50%;
+}
+
+.banner-medical{
+    background: url(../images/slide.jpg) 0 0 no-repeat;
+}
+.banner-inner{
+    position: relative;
+    height: 600px;
+}
+.banner-text{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.banner-text p{
+    color: #fff;
+}
+
+.medical-paralax{
+    background: url(../images/medical-billing-bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed    ;
+}
+
+.list-blue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.list-blue li{
+    width: calc(20% - 10px);
+    padding:10px;
+    background: #34bdc9;
+    color: #fff ;
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.custom-link{
+    font-size: 24px;
+    color: #34bdc9;
+    font-weight: 700;
+}
+.medical-training-sec{
+    background:#f1f1f1;
+    position: relative;
+}
+
+.medical-train-inner h2{
+    margin-bottom: 20px;
+}
+.med-list{
+    margin-top: 20px;
+}
+.med-list li{
+    padding: 5px 10px 5px 25px;
+    position: relative;
+}
+.med-list li::before {
+    content: "";
+    height: 8px;
+    position: absolute;
+    width: 8px;
+    background: #34bdc9;
+    border-radius: 50%;
+    left: 5px;
+    top: 14px;
+}
+
+.med-list li::after {
+    content: "";
+    height: 16px;
+    position: absolute;
+    width: 16px;
+    background: none;
+    border: 2px solid #34bdc9;
+    border-radius: 50%;
+    left: 1px;
+    top: 10px;
+}
+.med-right-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+.med-right-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blue-section{
+    background:#34bdc9;
+    color: #fff;
+}
+.blue-section p{
+    color: #fff;
+}
+.time-box{
+    background:#fff;
+    height: 100%;
+}
+.time-box{
+}
+.time-box p{
+    color: #222;
+    padding: 0;
+    
+}
+.time-b-two{
+    width: 50%;
+    padding: 15px;
+    float: left;
+}
+.time-b-two{
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+}
+.time-b-two h6{
+    color: #000;
+    font-size: 15px;
+}
+.time-box h2{ 
+    background:#fa9214; 
+    padding: 10px;
+    font-size: 20px;
+}
+.prog-sec{
+    background:#f1f1f1;
+}
+
+.font-lg{
+    padding: 0 10px !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.thumb-prog{
+    padding:30px;
+    background:#34bdc9;
+    text-align: center;
+    box-shadow: 0px 0px 18px 0px rgb(0 0 0 / 20%);
+    height: 100%;
+}
+.prog-sec .col-md-3 {
+    margin-top: 30px;
+}
+.thumb-prog h4{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.thumb-img{
+    height: 59px;
+    overflow: hidden;
+}
+.thumb-img img{
+    transform: translateY(-59px);
+}
